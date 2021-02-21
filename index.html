@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+        type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Phone Link</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light border-bottom">
+        <span class="navbar-brand text-secondary">
+            <img id="navPhoto" src="https://cdn.pixabay.com/photo/2017/06/14/08/20/map-of-the-world-2401458_960_720.jpg"
+                height="25" class=" align-top  p-0" alt="coronavirus covid-19 world pic" loading="lazy">
+        </span>
+        <span>
+            <h1 id="navTitle">Phone Link</h1>
+        </span>
+
+
+
+        <button class="navbar-toggler navbar-light navbar-left" type="button" data-toggle="collapse"
+            data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav float-right  ml-auto pr-1">
+                <li class="nav-item country">
+                    <a id="andriod" class="nav-link md-py-2 md-px-3" href="">Andriod
+                    </a>
+                </li>
+                <li class="nav-item country">
+                    <a id="apple" class="nav-link  md-py-2 md-px-3" href="">Apple</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="outer-container">
+        <div class="main-container">
+            <ul id="tabNode" class="nav nav-tabs  pt-4 justify-content-center ">
+                <li class="nav-item">
+                    <a id="hot" class="nav-link text-secondary active" href="" data-toggle="tab">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a id="new" class="nav-link text-secondary" href="" data-toggle="tab">New</a>
+                </li>
+            </ul>
+
+            <div id="search-container" class="container">
+
+                <div id="results"></div>
+                <a href="#" class="scroll-btn"><i class="fa fa-arrow-up"></i></a>
+            </div>
+        </div>
+        <footer>
+            <p>&copy; Copyright 2020</p>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        </script>
+        <script src="./index.js"></script>
+</body>
+
+</html>
