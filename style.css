@@ -8,43 +8,86 @@
     background-image: linear-gradient(to right, #bdc3c7, #c4e0e5);
 }
 
+.navbar {
+    background-color: #F8F9FA;
+}
+
+#nav-btn {
+    border: none;
+}
+
+#nav-btn:focus {
+    outline: none;
+}
+
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+
 #navPhoto {
-    border-radius: 25px;
-    opacity: .5;
+    border-radius: 5px;
+    opacity: .8; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    
 }
 
 #navTitle {
     display: inline-block;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    color: #333333;
     margin: auto;  
-    font-size: 15px;  
-    font-weight: bold;
+    font-size: 15px; 
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3); 
 }
 
-ul {
+
+.trending-new{
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+ul.nav-tabs {
     margin-bottom: 0;
+    box-shadow: 0px 15px 10px -15px #111;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .7rem;
+    padding:5px;
+    width: 85px;
+    height: 25px;
+    box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    border: none;
+    border-radius: 2px;
+}
+
+p {
+    margin-bottom: 8px;
 }
 
 footer {
-    height: 60px;
-    text-align: center;
-    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
     background-color: grey;
     color: white;
   }
-
-  .title {
- 
-    margin-bottom: 50px;
-    text-transform: uppercase;
-}
 
 .card-text {
     display: flex;
     position: relative;
     border-bottom: 1px solid rgba(34, 36, 38, .1);
+    line-height: 1.5;
     padding: 5px;
+    font-size: .9rem;
+    box-shadow: 0px 15px 10px -15px #111;
 }
 
 .card-block {
@@ -52,17 +95,26 @@ footer {
     font-size: 1em;
     margin:  auto  0;
     text-emphasis: center;
-    padding: 1em;
+    padding-left: 1em;
     border: none;
-    box-shadow: none;   
+    padding: 10px;
 }
-.card {
-    font-size: 1em;
+.card-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
     overflow: hidden;
-    padding: 5;
+    margin: 0 5px;
     border: none;
+    padding: 0;
+    background-color: none;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    overflow: hidden;
     border-radius: .28571429rem;
-    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.4); 
 }
 
 .scroll-btn {
@@ -87,6 +139,13 @@ footer {
     color: gray;
 }
 
+@media (max-width: 767px) { 
+    #menu-ul {
+        text-decoration: none;
+        border: none;
+    }
+}
+
 @media (min-width: 400px) { 
     #navTitle {
         font-size: 20px;
@@ -101,10 +160,19 @@ footer {
     }
    }
 
+   @media (min-width: 1000px) { 
+    .card-text {
+        font-size: 1rem;
+    }
+
 
 @media (min-width: 1100px) { 
     #navTitle {
         font-size: 30px;
+    }
+
+    .card-text {
+        font-size: 1rem;
     }
 
     #navPhoto {
