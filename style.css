@@ -87,7 +87,6 @@ footer {
     line-height: 1.5;
     padding: 5px;
     font-size: .9rem;
-    box-shadow: 0px 15px 10px -15px #111;
 }
 
 .card-block {
@@ -109,7 +108,7 @@ footer {
     background-color: none;
     width:100px;
     height:100px;
-    object-fit: contain;
+    object-fit: cover;
     overflow: hidden;
     border-radius: .28571429rem;
     box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.4); 
@@ -148,7 +147,11 @@ footer {
     }
 
     .card-text {
-        font-weight: 400;
+        font-weight: 300;
+    }
+
+    .trending-new{
+        font-size: 15px;
     }
 
 
@@ -172,6 +175,7 @@ footer {
     .card-text {
         font-size: 1rem;
     }
+}
 
 
 @media (min-width: 1100px) { 
@@ -190,4 +194,4 @@ footer {
     .main-container {
         margin: 0 20%;
     }
-   }
+}
