@@ -25,7 +25,7 @@ document.querySelectorAll(".phone").forEach(item => {
                      return;
                  } else {
                 // Check for image
-                const image = post.preview ? post.preview.images[0].source.url : 'https://cdn.pixabay.com/photo/2020/04/21/07/57/corona-5071972_960_720.jpg';
+                const image = post.preview ? post.preview.images[0].source.url : 'https://images.pexels.com/photos/33999/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500';
                 const postTitle = post.title;
                 const url = post.url;
     
@@ -63,7 +63,7 @@ document.getElementById("tabNode").addEventListener("click", function (e) {
                      return;
                  } else {
                 // Check for image
-                const image = post.preview ? post.preview.images[0].source.url : 'https://cdn.pixabay.com/photo/2020/04/21/07/57/corona-5071972_960_720.jpg';
+                const image = post.preview ? post.preview.images[0].source.url : 'https://images.pexels.com/photos/33999/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500';
                 const postTitle = post.title;
                 const url = post.url;
     
@@ -92,7 +92,7 @@ search()
                  return;
              } else {
                  // Check for image
-            const image = post.preview ? post.preview.images[0].source.url : 'https://cdn.pixabay.com/photo/2020/04/21/07/57/corona-5071972_960_720.jpg';
+            const image = post.preview ? post.preview.images[0].source.url : 'https://images.pexels.com/photos/33999/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500';
             const postTitle = post.title;
             const url = post.url;
 

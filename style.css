@@ -92,7 +92,6 @@ footer {
 
 .card-block {
     position: relative;
-    font-size: 1em;
     margin:  auto  0;
     text-emphasis: center;
     padding-left: 1em;
@@ -103,18 +102,21 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    object-fit: cover;
     overflow: hidden;
     margin: 0 5px;
     border: none;
     padding: 0;
     background-color: none;
-    width:100%;
-    height:100%;
-    object-fit: cover;
+    width:100px;
+    height:100px;
+    object-fit: contain;
     overflow: hidden;
     border-radius: .28571429rem;
     box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.4); 
+}
+
+.card-img {
+    height: 100%;
 }
 
 .scroll-btn {
@@ -144,6 +146,12 @@ footer {
         text-decoration: none;
         border: none;
     }
+
+    .card-text {
+        font-weight: 400;
+    }
+
+
 }
 
 @media (min-width: 400px) { 
