@@ -81,6 +81,7 @@ footer {
   }
 
 .card-text {
+    color: #4D4D4E;
     display: flex;
     position: relative;
     border-bottom: 1px solid rgba(34, 36, 38, .1);
@@ -106,16 +107,15 @@ footer {
     border: none;
     padding: 0;
     background-color: none;
-    width:100px;
-    height:100px;
-    object-fit: cover;
-    overflow: hidden;
+    width:100%;
+    max-height:100px;
     border-radius: .28571429rem;
     box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.4); 
 }
 
 .card-img {
     height: 100%;
+    object-fit: cover;
 }
 
 .scroll-btn {
